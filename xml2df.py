@@ -134,18 +134,4 @@ def xml2df(xml_document, root_node, batched_elements, unique_results=True, join_
                     _row[key] = join_separator.join(val)
     print(results)
     return pd.DataFrame(results)
- 
-def main():
-    
-    document = ET.parse("example.xml")
-    
-    # batched elements is a list containing all the nodes who's children are of the same instance
-
-    batched_elements = ["publish_date", "author_details"]
- 
-    df_result = xml2df(document, "book", batched_elements)
-    print(df_result.head(5))
- 
-if __name__ == "__main__":
-    main()
 

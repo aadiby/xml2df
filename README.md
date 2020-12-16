@@ -18,7 +18,7 @@ def main():
     
 The file contains several functions to process your XML file. Please find the descriptions below:
 
-xml2df function:
+>### xml2df function:
 
     This function runs the xml_flatten function to supply us with a flat structure result, the result of the xml_flatten function is then
         modified to join all existing lists to strings. If you do not need this final modification, please consider using the xml_flatten
@@ -51,7 +51,7 @@ xml2df function:
     join_separator: default set to ";". modify this if you want the lists to be joined with any other separator
 
 
-xml_flatten function:
+>### xml_flatten function:
 
     This function, given the root node, will drill down the elements and flatten the xml.
     xml_document: the xml document to be processed
@@ -62,7 +62,7 @@ xml_flatten function:
         in a separate column
 
 
-get_flat_children function:
+>### get_flat_children function:
 
     This function will simply iterate over every node until there are no child nodes found. At this point the function will
         create a dictionary that saves the value of the node text along with the full attribute (name=value).
