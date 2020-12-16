@@ -1,0 +1,74 @@
+<catalog>
+   <book id="bk101">
+      <author confirmed="Y">Gambard, Jan</author>
+      <author confirmed="Y">Do, Jan</author>
+      <author_details>
+        <first_name>Jan
+        </first_name>
+        <last_name>Gambard
+        </last_name>
+        <country>Germany
+        </country>
+        <affiliation>
+            <college>Berlin University
+            </college>
+        </affiliation>
+      </author_details>
+      <author_details>
+        <first_name>Jan
+        </first_name>
+        <last_name>Do
+        </last_name>
+        <country>Germany
+        </country>
+        <affiliation>
+            <college>Koln University
+            </college>
+        </affiliation>
+      </author_details>
+      <title>XML Developer's Guide</title>
+      <genre>Computer</genre>
+      <price>44.95</price>
+      <publish_date version="original">
+        <year>2000</year>
+        <month>10</month>
+        <day>01</day>
+      </publish_date>
+      <publish_date version="reviewed">
+        <year>2000</year>
+        <month>10</month>
+        <day>15</day>
+      </publish_date>
+      <description>An in-depth look at creating applications 
+      with XML.</description>
+   </book>
+   <book id="bk102">
+      <author confirmed="N">Rallson, Kimberly</author>
+      <author_details>
+        <first_name>Kimberly
+        </first_name>
+        <last_name>Rallson
+        </last_name>
+        <country>UK
+        </country>
+        <affiliation>
+            <college>Cambridge University
+            </college>
+        </affiliation>
+      </author_details>
+      <title>Midnight sun</title>
+      <genre>Fantasy</genre>
+      <price>5.95</price>
+      <publish_date version="original">
+        <year>2000</year>
+        <month>12</month>
+        <day>16</day>
+      </publish_date>
+      <publish_date version="reviewed">
+        <year>2001</year>
+        <month>02</month>
+        <day>11</day>
+      </publish_date>
+      <description>delusional biography</description>
+   </book>
+</catalog>
